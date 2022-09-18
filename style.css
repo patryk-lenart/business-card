@@ -5,13 +5,63 @@ html{
     box-sizing: inherit;
 }
 body{
-    background:#2C2141
+    background:#2C2141;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh
 }
 main{
-    background:#F8F8F8
+    background:#F8F8F8;
+    border-radius:16px;
+    width:624px;
+    height:320px;
+    
 }
 img{
     width:148px;
     height:148px;
     border-radius:50%;
+    
+}
+div{
+    display:flex;
+    align-content:flex-end
+    
+}
+.card{
+    padding:32px;
+}
+.card__name{
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+.card__name--position{
+margin-top:0px;
+padding-top:0px;
+font-style: italic;
+font-size:18px;
+color:#545454;
+}
+.content{
+    display:flex;
+    flex-direction:column;
+    padding-left:32px;
+}
+strong{
+    color:#ED6D05
+}
+.card__links{
+    margin:0;
+    
+    
+}
+.main-content{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    
+}
+.link{
+    text-decoration: none;
+    color:#E20613;
 }

@@ -1,22 +1,39 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wizytówka</title>
-    <link href="style.css"rel="stylesheet" type="text/css">
-    <link href="normalize.css"rel="stylesheet" type="text/css">
-</head>
-<body>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
     <main>
-        <article>
-            <img src="zdjecie.png" alt="avatar">
-            <h1><p>Patryk Lenart</p></h1>
-            <p>uczeń frontendu</p>
+      <article class="card">
+        <div>
+          <img class="card__avatar" src="zdjecie.png" alt="avatar" />
+          <div class="content">
+            <h1 class="card__name">Patryk Lenart</h1>
+            <p class="card__name--position">uczeń frontendu</p>
 
-        </article>
+            <p class="card__description main-content">
+              Zwykły chłopak po
+              <strong>czteroletnim techikum budowlanym</strong>, który jest
+              operatorem maszyn CNC a po pracy uczy się frontendu bo lubi
+              poznawać nowe rzeczy. Pozatym lubię spędzać czas ze znajomymi a
+              także <strong>czytać książki</strong>. Wszystko co robię, robię w
+              celu spełnienia marzeń.
+            </p>
+            <p class="card__links main-content">
+              W sieci:
+              <a class="link" href="https://www.facebook.com/patryk.lenart.501">Facebook, </a>
+              <a class="link" href="https://github.com/patryk-lenart">GitHub, </a>
+              <a class="link" href="https://www.instagram.com/lenarton/">Instagram, </a>
+            </p>
+          </div>
+        </div>
+      </article>
     </main>
-    
-</body>
+  </body>
 </html>
